@@ -1,6 +1,6 @@
 .cabecalho{
-    background-color: #714fec    ;
-    color:rgb(255, 255, 255);
+    background-color: #5300a0;
+    color:white;
     display: flex;
     justify-content: space-around;
 }
@@ -13,12 +13,20 @@
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    padding: 24px;
+    padding: 24px 0;
     font-size: 24px;
 }
 .veterinaria-imagem{
     width: 25%;
 }
-.medicina-veterinaria {
-    background-image: linear-gradient(#A68F97,#714fec);
+.escola {
+    background-image: linear-gradient(#5300a0,#b32fff);
+    color: white;
+    display: flex;
+}
+.escola-conteudo{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
